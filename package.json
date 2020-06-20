@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jordan's Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jknox24/portfolio.git"
+  },
+  "author": "Jordan Knox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jknox24/portfolio/issues"
+  },
+  "homepage": "https://github.com/jknox24/portfolio#readme"
+}
