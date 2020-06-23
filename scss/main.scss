@@ -13,7 +13,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Futura;
   line-height: 1.5;
 }
 
@@ -59,10 +59,10 @@ main {
 
     a {
       padding: 0.4rem;
+      @include easeOut();
 
       &:hover {
         color: $secondary-color;
-        @include easeOut();
       }
     }
   }
@@ -98,15 +98,15 @@ main {
   }
 
   .job-1 {
-    grid-area: job1
+    grid-area: job1;
   }
 
   .job-2 {
-    grid-area: job2
+    grid-area: job2;
   }
 
   .job-3 {
-    grid-area: job3
+    grid-area: job3;
   }
 
   .job {
@@ -131,6 +131,35 @@ main {
       opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
+    }
+  }
+}
+
+
+// contact
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
+        color: set-text-color($secondary-color);
+
+      }
     }
   }
 }
