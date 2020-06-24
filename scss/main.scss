@@ -130,7 +130,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.9rem;
   grid-template-columns: repeat(3, 1fr);
 
   img {
@@ -199,6 +199,13 @@ color: #fff;
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+}
+
+.btn-light-head {
+@extend .btn;
+text-align: center;
+font-size: 36px;
+
 }
 #main-footer {
   text-align: center;
