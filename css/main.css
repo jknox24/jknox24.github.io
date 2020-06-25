@@ -250,10 +250,6 @@ main {
   color: #fff;
   height: 60px; }
 
-@media screen and (min-width: 1171px) {
-  .projects {
-    grid-template-columns: repeat(4, 1fr); } }
-
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
@@ -309,5 +305,7 @@ main {
     align-items: center;
     text-align: center;
     font-size: 64px; }
+  .boxes div {
+    font-size: 1.3rem; }
   .projects {
     grid-template-columns: 1fr; } }

@@ -1,11 +1,5 @@
 // Widescreens
 
-@include mediaXl {
-  .projects {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 // Desktops
 
 @include mediaLg {
@@ -101,6 +95,10 @@
      align-items: center;
      text-align: center;
      font-size: 64px;
+   }
+
+   .boxes div {
+     font-size: 1.3rem;
    }
 
 
