@@ -202,9 +202,15 @@ color: #fff;
 }
 
 .btn-light-head {
-@extend .btn;
+
 text-align: center;
 font-size: 36px;
+
+
+display: block;
+padding: 0.5rem;
+border: 0;
+margin-bottom: 0.3rem;
 
 }
 #main-footer {

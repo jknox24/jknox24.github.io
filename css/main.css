@@ -222,12 +222,12 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-.btn, .btn-dark, .btn-light, .btn-light-head {
+.btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover, .btn-light-head:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #FFC72C;
     color: #000; }
 
@@ -241,7 +241,11 @@ main {
 
 .btn-light-head {
   text-align: center;
-  font-size: 36px; }
+  font-size: 36px;
+  display: block;
+  padding: 0.5rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
 
 #main-footer {
   text-align: center;
