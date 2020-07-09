@@ -75,6 +75,20 @@ main {
     }
   }
 
+     .contact-icons {
+       margin-top: 1rem;
+       text-align: center;
+
+       a {
+         padding: 0.4rem;
+         @include easeOut();
+
+         &:hover {
+           color: $secondary-color;
+         }
+       }
+     }
+
   &#home {
     overflow: hidden;
 
